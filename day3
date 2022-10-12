@@ -1,0 +1,15 @@
+function isValidNumber(num) {
+
+  if(isNaN(num)){
+      console.log(`${num} is not a valid number`)
+  }
+  else{
+    console.log(`${num} is a valid number`)
+  }
+}
+
+isValidNumber("21") //"11 is a valid number"
+isValidNumber("vhvhv") //"19 is a valid number"
+isValidNumber("xyzscasc") //"xyz is not a number"
+isValidNumber("17.5") //"17.5 is a valid number"
+isValidNumber("21xadxasF") //"21F is not a number"
