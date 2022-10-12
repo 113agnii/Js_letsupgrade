@@ -8,8 +8,8 @@ function isValidNumber(num) {
   }
 }
 
-isValidNumber("21") //"11 is a valid number"
-isValidNumber("vhvhv") //"19 is a valid number"
-isValidNumber("xyzscasc") //"xyz is not a number"
+isValidNumber("21") //"21 is a valid number"
+isValidNumber("vhvhv") //"vhvhv is a valid number"
+isValidNumber("xyzscasc") //"xyzcasc is not a number"
 isValidNumber("17.5") //"17.5 is a valid number"
-isValidNumber("21xadxasF") //"21F is not a number"
+isValidNumber("21xadxasF") //"21xadxasF is not a number"
